@@ -1,7 +1,11 @@
+import Header from "@/components/Header";
 import Image from "next/image";
 
 export default function Home() {
   return (
+    <>
+    
+    <Header />
     <main className="flex flex-col">
       <section className="w-full py-12 md:py-24 lg:py-32">
         <div className="container grid items-center gap-6 lg:grid-cols-[1fr_500px] lg:gap-12 xl:grid-cols-[1fr_550px]">
@@ -18,5 +22,6 @@ export default function Home() {
         </div>
       </section>
     </main>
+    </>
   );
 }

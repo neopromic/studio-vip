@@ -24,7 +24,6 @@ export default function RootLayout({
         enableSystem
         disableTransitionOnChange
       >
-        <Header />
         <body className={inter.className}>{children}</body>
       </ThemeProvider>
     </html>
